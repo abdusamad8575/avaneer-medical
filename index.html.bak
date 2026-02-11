@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Avaneer Medical Center - Elite Healthcare in Muscat, Oman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#c3185d",
+                        "background-light": "#ffffff",
+                        "background-alt": "#fbf8fa",
+                        "background-dark": "#211117",
+                        "text-main": "#1b0e13",
+                        "plum-dark": "#5D0E31",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.375rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    keyframes: {
+                        fade: {
+                            '0%, 100%': { opacity: '0' },
+                            '10%, 90%': { opacity: '1' },
+                        },
+                        zoom: {
+                            '0%': { transform: 'scale(1)' },
+                            '100%': { transform: 'scale(1.05)' },
+                        }
+                    },
+                    animation: {
+                        'fade-slide-1': 'fade 18s infinite',
+                        'fade-slide-2': 'fade 18s infinite 6s',
+                        'fade-slide-3': 'fade 18s infinite 12s',
+                        'zoom-slow': 'zoom 20s infinite alternate',
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white antialiased">
+    <header class="sticky top-0 z-50 w-full border-b border-[#f3e8ec] dark:border-white/10 bg-white/80 dark:bg-background-dark/90 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                        <span class="material-symbols-outlined text-2xl">local_hospital</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-plum-dark dark:text-white">Avaneer Medical Center</span>
+                </div>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a class="text-sm font-medium text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="#services">Services</a>
+                    <a class="text-sm font-medium text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="#doctors">Doctors</a>
+                    <a class="text-sm font-medium text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="#testimonials">Testimonials</a>
+                    <a class="text-sm font-medium text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="#contact">Contact</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <button class="hidden sm:flex h-10 items-center justify-center rounded-lg bg-primary px-5 text-sm font-bold text-white shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all">
+                        Book Appointment
+                    </button>
+                    <button class="md:hidden p-2 text-gray-600 dark:text-gray-300">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative h-[700px] lg:h-[800px] w-full overflow-hidden bg-plum-dark group">
+        <div class="absolute inset-0 opacity-0 animate-fade-slide-1 z-10 transition-opacity duration-1000">
+            <div class="absolute inset-0 bg-cover bg-center transform animate-zoom-slow" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuALuhOsYNz4lcdFglMU3JdAri_cImHLEZywyaZ9M2JKzR2GklpsSnxQ7Bq0soonNcb2e54cwrdonQX8xyzQrREYaWCn6k3OfeAE9mR4Fn8fC_731umyhAYMmcX87yUnQukGzU4LEzjJSAlIzeR6U7lFtISw8JuLrekaK-AHsBeDAay20qU41_yP6MzDxtiWOViAawBP_Mw8VsDdLeD95pi3HlFUnP0NOMvvF3GwBDxou40ycV7LduVfTHbZRtJZf825Jo_xXQmc86I');"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-plum-dark/95 via-plum-dark/70 to-transparent"></div>
+            <div class="container relative z-20 mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
+                <div class="max-w-2xl pl-4 border-l-4 border-primary/50 py-2">
+                    <div class="inline-flex items-center rounded-full bg-white/10 backdrop-blur-md px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white mb-6 border border-white/20">
+                        <span class="flex h-2 w-2 rounded-full bg-green-400 mr-2 animate-pulse"></span>
+                        State-of-the-Art Healthcare
+                    </div>
+                    <h1 class="text-5xl font-black tracking-tight text-white sm:text-6xl md:text-7xl lg:leading-[1.1] mb-6 drop-shadow-lg">
+                        Elite Healthcare <br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-500">Patient-Centered Care</span>
+                    </h1>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-100 mb-10 max-w-lg drop-shadow-md font-light">
+                        Experience world-class medical facilities with ergonomic design, cutting-edge equipment, and a serene atmosphere designed for your comfort and healing.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-5">
+                        <button class="h-14 px-8 rounded-full bg-primary text-white font-bold text-base hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/30 flex items-center justify-center gap-2">
+                            <span>Book Appointment</span>
+                            <span class="material-symbols-outlined text-sm">calendar_today</span>
+                        </button>
+                        <button class="h-14 px-8 rounded-full border border-white/40 bg-white/5 backdrop-blur-sm text-white font-medium text-base hover:bg-white/10 hover:border-white transition-all duration-300 flex items-center justify-center">
+                            Explore Our Services
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 opacity-0 animate-fade-slide-2 z-10 transition-opacity duration-1000">
+            <div class="absolute inset-0 bg-cover bg-center transform animate-zoom-slow" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1iIT1OHdxEwKKqrVvOSgQ19AFLWonlnGDzH279US-zEJhO_nGBHxnIeBT1_7_o3VlvK0w7mJNFNsSwRL6xV1xZvWi29iReaTGTGkPQ7KY5nYNEJVN2qABogD_TH4v2zfPYPovd-to0BOiF6hGhFEt2ZfJPOk4-Hfa0qXvUBRoD9fwz3yBL7GsYxLQSOL1O8nlm5VzHpFGqhp3zcZai7e6Y59_6OfWkv1c4kMC2gjj_zAYQdaQxKX-_Q4ITYAD33vFDKDM0GH73I0');"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-plum-dark/95 via-plum-dark/70 to-transparent"></div>
+            <div class="container relative z-20 mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
+                <div class="max-w-2xl pl-4 border-l-4 border-primary/50 py-2">
+                    <div class="inline-flex items-center rounded-full bg-white/10 backdrop-blur-md px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white mb-6 border border-white/20">
+                        <span class="material-symbols-outlined text-sm mr-2 text-yellow-400">stars</span>
+                        Multidisciplinary Experts
+                    </div>
+                    <h1 class="text-5xl font-black tracking-tight text-white sm:text-6xl md:text-7xl lg:leading-[1.1] mb-6 drop-shadow-lg">
+                        Expert Doctors <br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-500">Who Care</span>
+                    </h1>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-100 mb-10 max-w-lg drop-shadow-md font-light">
+                        Our team of multidisciplinary doctors brings extensive local and international knowledge, dedicated to achieving patient-focused healthcare with excellence in quality and service.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-5">
+                        <button class="h-14 px-8 rounded-full bg-primary text-white font-bold text-base hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/30 flex items-center justify-center gap-2">
+                            Meet Our Team
+                        </button>
+                        <button class="h-14 px-8 rounded-full border border-white/40 bg-white/5 backdrop-blur-sm text-white font-medium text-base hover:bg-white/10 hover:border-white transition-all duration-300 flex items-center justify-center">
+                            View Specialists
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 opacity-0 animate-fade-slide-3 z-10 transition-opacity duration-1000">
+            <div class="absolute inset-0 bg-cover bg-center transform animate-zoom-slow" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAOtzUC-4x8pKJY-zekW_JZE7CZ6Ol8UjUa_xeRfAbFa6_A9_pZziESHQrq4WAQD7fRenooN8NjB8x_10KCSTuqRPjWjeJ9jJXJmxfzXHF-lcC75IH48ra6NC9TTGfrMZovfglgNyn7gwCK4xjDm9JQ7d2bFMcOp5IWSapaHwZeE8gdv2yRxVjEsXB770Z2IBxulRv9JasZolfWZUXJxaGOGCPWPNGqFN75Mh_XqJQVh_2JokG5cda2Jn501t2ZQtECXxqV1Xk7sXI');"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-plum-dark/95 via-plum-dark/70 to-transparent"></div>
+            <div class="container relative z-20 mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center">
+                <div class="max-w-2xl pl-4 border-l-4 border-primary/50 py-2">
+                    <div class="inline-flex items-center rounded-full bg-white/10 backdrop-blur-md px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white mb-6 border border-white/20">
+                        <span class="material-symbols-outlined text-sm mr-2 text-pink-400">favorite</span>
+                        Sustainable & Affordable Healthcare
+                    </div>
+                    <h1 class="text-5xl font-black tracking-tight text-white sm:text-6xl md:text-7xl lg:leading-[1.1] mb-6 drop-shadow-lg">
+                        Your Health <br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-500">Our Priority</span>
+                    </h1>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-100 mb-10 max-w-lg drop-shadow-md font-light">
+                        Providing sustainable, affordable, and effective healthcare to all. We combine medical excellence with integrity, empathy, safety, and innovation.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-5">
+                        <button class="h-14 px-8 rounded-full bg-primary text-white font-bold text-base hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/30 flex items-center justify-center gap-2">
+                            Book Appointment
+                        </button>
+                        <button class="h-14 px-8 rounded-full border border-white/40 bg-white/5 backdrop-blur-sm text-white font-medium text-base hover:bg-white/10 hover:border-white transition-all duration-300 flex items-center justify-center">
+                            Read Patient Stories
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-4 z-30 bg-black/20 backdrop-blur-sm rounded-full px-6 py-3 border border-white/10">
+            <div class="w-2.5 h-2.5 rounded-full bg-white animate-[pulse_6s_infinite] cursor-pointer hover:bg-primary transition-colors"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-white/40 hover:bg-white transition-colors cursor-pointer"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-white/40 hover:bg-white transition-colors cursor-pointer"></div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent z-20"></div>
+    </section>
+
+    <section class="py-20 bg-white dark:bg-background-dark" id="services">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-primary font-semibold tracking-wide uppercase text-sm">Our Specialties</span>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight text-plum-dark dark:text-white sm:text-4xl">Comprehensive Medical Services</h2>
+                <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">We offer a wide range of specialized treatments with state-of-the-art facilities and cutting-edge equipment to ensure exceptional outcomes.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group relative rounded-xl border border-gray-100 bg-background-alt dark:bg-white/5 dark:border-white/10 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">stethoscope</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-plum-dark dark:text-white">Family Medicine</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">Comprehensive health checks, chronic disease management, and personalized care for the whole family.</p>
+                </div>
+                <div class="group relative rounded-xl border border-gray-100 bg-background-alt dark:bg-white/5 dark:border-white/10 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">dentistry</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-plum-dark dark:text-white">Dental Care</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">Advanced dental procedures, cosmetic dentistry, laser treatments, and oral surgery.</p>
+                </div>
+                <div class="group relative rounded-xl border border-gray-100 bg-background-alt dark:bg-white/5 dark:border-white/10 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">child_care</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-plum-dark dark:text-white">Pediatrics</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">Specialized care for infants, children, and adolescents including neonatology and well-baby clinics.</p>
+                </div>
+                <div class="group relative rounded-xl border border-gray-100 bg-background-alt dark:bg-white/5 dark:border-white/10 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined">biotech</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-plum-dark dark:text-white">Laboratory Services</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">Accurate diagnostic testing and analysis with state-of-the-art laboratory equipment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-background-alt dark:bg-background-dark border-t border-b border-gray-100 dark:border-white/5" id="doctors">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div class="max-w-2xl">
+                    <span class="text-primary font-semibold tracking-wide uppercase text-sm">Our Team</span>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight text-plum-dark dark:text-white sm:text-4xl">Meet Our Specialists</h2>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">Highly qualified doctors with extensive local and international experience, dedicated to providing patient-centered care.</p>
+                </div>
+                <div>
+                    <a class="inline-flex items-center text-primary font-semibold hover:text-primary/80 transition-colors" href="#">
+                        View All Doctors
+                        <span class="material-symbols-outlined ml-1">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-white/5 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="aspect-[4/5] w-full bg-gray-200 bg-cover bg-center" data-alt="Portrait of Dr. Heba Saleh Saad" style="background-image: url('images/16.png');"></div>
+                    <div class="p-5 flex flex-col flex-1">
+                        <h3 class="text-lg font-bold text-plum-dark dark:text-white">Dr. Heba Saleh Saad</h3>
+                        <p class="text-primary text-sm font-medium mb-2">General Practitioner</p>
+                        <p class="text-xs text-gray-600 dark:text-gray-400 mb-3">MBBS from Cairo University<br/>Diploma in Gynecology<br/>10+ Years Experience</p>
+                        <div class="mt-auto flex gap-3 pt-4 border-t border-gray-100 dark:border-white/10">
+                            <button class="w-full py-2 px-3 rounded bg-gray-50 dark:bg-white/10 text-xs font-semibold text-gray-700 dark:text-white hover:bg-primary hover:text-white transition-colors">Book Visit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-white/5 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="aspect-[4/5] w-full bg-gray-200 bg-cover bg-center" data-alt="Portrait of Dr. Fatma Alzahra" style="background-image: url('images/15.png');"></div>
+                    <div class="p-5 flex flex-col flex-1">
+                        <h3 class="text-lg font-bold text-plum-dark dark:text-white">Dr. Fatma Alzahra</h3>
+                        <p class="text-primary text-sm font-medium mb-2">Paediatrics Specialist</p>
+                        <p class="text-xs text-gray-600 dark:text-gray-400 mb-3">MBBS, MD, SMSB<br/>Clinical Doctorate in Paediatrics<br/>12+ Years Experience</p>
+                        <div class="mt-auto flex gap-3 pt-4 border-t border-gray-100 dark:border-white/10">
+                            <button class="w-full py-2 px-3 rounded bg-gray-50 dark:bg-white/10 text-xs font-semibold text-gray-700 dark:text-white hover:bg-primary hover:text-white transition-colors">Book Visit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-white/5 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <div class="aspect-[4/5] w-full bg-gray-200 bg-cover bg-center" data-alt="Portrait of Dr. Saiprabha Sivakumar Inika" style="background-image: url('images/14.png');"></div>
+                    <div class="p-5 flex flex-col flex-1">
+                        <h3 class="text-lg font-bold text-plum-dark dark:text-white">Dr. Saiprabha Sivakumar Inika</h3>
+                        <p class="text-primary text-sm font-medium mb-2">Dental Surgeon</p>
+                        <p class="text-xs text-gray-600 dark:text-gray-400 mb-3">BDS, MS (Forensic Odontology)<br/>Fellowship in Laser Dentistry<br/>14+ Years Experience</p>
+                        <div class="mt-auto flex gap-3 pt-4 border-t border-gray-100 dark:border-white/10">
+                            <button class="w-full py-2 px-3 rounded bg-gray-50 dark:bg-white/10 text-xs font-semibold text-gray-700 dark:text-white hover:bg-primary hover:text-white transition-colors">Book Visit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white dark:bg-background-dark" id="testimonials">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-primary font-semibold tracking-wide uppercase text-sm">Patient Stories</span>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight text-plum-dark dark:text-white sm:text-4xl">What Our Patients Say</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-background-alt dark:bg-white/5 p-8 rounded-2xl relative">
+                    <span class="material-symbols-outlined absolute top-6 left-6 text-4xl text-primary/20">format_quote</span>
+                    <p class="text-gray-600 dark:text-gray-300 italic mb-6 relative z-10 pt-6">"The care I received at Avaneer Medical Center was exceptional. Dr. Heba listened to all my concerns with patience and the facility was spotless. The ergonomic design and serene atmosphere made my visit comfortable. Highly recommended!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDbQsVhhfTmuA40hQO8tQ1skvosAjDqayYPjhG9qdcpUSP76e3lTMcdtAPGoMS_2KDHmHmL_zutXMdgzdF1YVAiYpmp0nnsPrR33r4Hn3kT75lsRTx3VJnmBbj2BMjugsuoxLDIIQ955WSCax-2GBhULqw6eR8n7s28410Die2CsJJWMv6FRC4AYHx91zAgf8J2wpbZKhoQ47tMd6gq2l3IFaKhpHPrsA-ni5k6_-cj_U7fVeyUsrgP1GgXjckk1DlXBDLX9g2hZto');"></div>
+                        <div>
+                            <h4 class="font-bold text-sm text-plum-dark dark:text-white">Ahmed Al-Mansoori</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Patient since 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background-alt dark:bg-white/5 p-8 rounded-2xl relative">
+                    <span class="material-symbols-outlined absolute top-6 left-6 text-4xl text-primary/20">format_quote</span>
+                    <p class="text-gray-600 dark:text-gray-300 italic mb-6 relative z-10 pt-6">"I've never felt so comfortable at a dental clinic. Dr. Saiprabha and her team are friendly, professional, and truly care about your comfort. The laser dentistry treatment was painless and the results are amazing!"</p>
+                    <div class="flex items-center gap-4">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQkJZ9ODmowE8NW-U6QUC3mWPBzasSuVYDOgxqQxqCx02Nea2Cr6jTgkZIjtbHNGByGWdqnGpYAF6TnzwbZxNwqqAUPG4_xfApd_JmyKneazfrOsKXaCDl6IvM6obznVLLMFiyJkXyZNIJ9o5Q-2nJcQPQKHgJ-VBzg_RnK2j5_rsAZY0xwa44Z4hY587ALgQ1eCFYXb1-Bt4vPWfwcgqGSrxZcTcyAXqm5ltpNuOi58CASSU1pVfrGSwHG0dDX8eblMFydPO1RtA');"></div>
+                        <div>
+                            <h4 class="font-bold text-sm text-plum-dark dark:text-white">Fatima Al-Zahra</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Dental Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background-alt dark:bg-white/5 p-8 rounded-2xl relative">
+                    <span class="material-symbols-outlined absolute top-6 left-6 text-4xl text-primary/20">format_quote</span>
+                    <p class="text-gray-600 dark:text-gray-300 italic mb-6 relative z-10 pt-6">"Dr. Fatma is amazing with children. My daughter actually looks forward to her check-ups now. The well-baby clinic services are excellent, and the staff is so caring and patient. It's a relief for any parent in Muscat."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzqCyJuC6kX3aT9iIiIjS9r7pGdPr2y2-tzsJRfEt18B_OtBqb8wWMWV_dxPTIGOWMzuHkClQLO_2Hdsj2_eS9LxgRwDJFimQDHnNjHF83_w_8FvX_HR23tVoRosqRpxI9y0ACfbDDsh6AsSJfB_FQVRtZQolgZZjYBsWgwoTM7pis-0UYHpoWIg7AViU5DimmIzyxZeKaHglspO8dyQ1ZSyB0fzY0AyMLWs9tu8R-lJJeFNL5pjXSnHnRDYsQZdRY1y-M7ttT0Ds');"></div>
+                        <div>
+                            <h4 class="font-bold text-sm text-plum-dark dark:text-white">Khalid Al-Said</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Father of two</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-background-alt dark:bg-white/5 p-8 rounded-2xl relative">
+                    <span class="material-symbols-outlined absolute top-6 left-6 text-4xl text-primary/20">format_quote</span>
+                    <p class="text-gray-600 dark:text-gray-300 italic mb-6 relative z-10 pt-6">"Dr. Fatma is amazing with children. My daughter actually looks forward to her check-ups now. The well-baby clinic services are excellent, and the staff is so caring and patient. It's a relief for any parent in Muscat."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzqCyJuC6kX3aT9iIiIjS9r7pGdPr2y2-tzsJRfEt18B_OtBqb8wWMWV_dxPTIGOWMzuHkClQLO_2Hdsj2_eS9LxgRwDJFimQDHnNjHF83_w_8FvX_HR23tVoRosqRpxI9y0ACfbDDsh6AsSJfB_FQVRtZQolgZZjYBsWgwoTM7pis-0UYHpoWIg7AViU5DimmIzyxZeKaHglspO8dyQ1ZSyB0fzY0AyMLWs9tu8R-lJJeFNL5pjXSnHnRDYsQZdRY1y-M7ttT0Ds');"></div>
+                        <div>
+                            <h4 class="font-bold text-sm text-plum-dark dark:text-white">Khalid Al-Said</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Father of two</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-background-light dark:bg-background-dark" id="contact">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="rounded-3xl bg-plum-dark overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 p-10 lg:p-16 text-white bg-plum-dark relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-primary/20 blur-3xl"></div>
+                    <div class="relative z-10">
+                        <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+                        <p class="text-white/80 mb-10 leading-relaxed">Ready to prioritize your health? Book an appointment today or visit us during our working hours. We are committed to providing sustainable, affordable, and effective healthcare to all.</p>
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-white/10 p-3 rounded-lg text-primary">
+                                    <span class="material-symbols-outlined text-white">location_on</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Visit Us</h4>
+                                    <p class="text-white/70">Al Nuzha Street, South Al Maabilah<br/>Al Seeb, Muscat Governorate<br/>Sultanate of Oman<br/>P.O Box: 1260, P.C: 122</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-white/10 p-3 rounded-lg text-primary">
+                                    <span class="material-symbols-outlined text-white">schedule</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Working Hours</h4>
+                                    <p class="text-white/70">Mon - Fri: 8:00 AM - 8:00 PM<br/>Sat - Sun: 9:00 AM - 5:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-white/10 p-3 rounded-lg text-primary">
+                                    <span class="material-symbols-outlined text-white">call</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Contact Us</h4>
+                                    <p class="text-white/70">Phone: (+968) 71922287<br/>Tel: (+968) 24052977<br/>Email: info@avaneermedical.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 bg-white dark:bg-[#2a161f] p-10 lg:p-16">
+                    <h3 class="text-2xl font-bold text-plum-dark dark:text-white mb-6">Book an Appointment</h3>
+                    <form action="#" class="space-y-5">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="name">Full Name</label>
+                                <input class="w-full rounded-lg border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-white/5 py-3 px-4 text-sm focus:border-primary focus:ring-primary dark:text-white" id="name" placeholder="Your Name" type="text"/>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="phone">Phone Number</label>
+                                <input class="w-full rounded-lg border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-white/5 py-3 px-4 text-sm focus:border-primary focus:ring-primary dark:text-white" id="phone" placeholder="(+968) 0000-0000" type="tel"/>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="department">Department</label>
+                            <select class="w-full rounded-lg border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-white/5 py-3 px-4 text-sm focus:border-primary focus:ring-primary dark:text-white" id="department">
+                                <option>Family Medicine</option>
+                                <option>Dental Care</option>
+                                <option>Pediatrics</option>
+                                <option>Laboratory Services</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="date">Preferred Date</label>
+                            <input class="w-full rounded-lg border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-white/5 py-3 px-4 text-sm focus:border-primary focus:ring-primary dark:text-white" id="date" type="date"/>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="message">Message (Optional)</label>
+                            <textarea class="w-full rounded-lg border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-white/5 py-3 px-4 text-sm focus:border-primary focus:ring-primary dark:text-white" id="message" placeholder="Briefly describe your symptoms..." rows="3"></textarea>
+                        </div>
+                        <button class="w-full rounded-lg bg-primary py-3 px-4 text-white font-bold text-sm hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20" type="button">Confirm Booking</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-background-alt dark:bg-background-dark border-t border-gray-200 dark:border-white/10 pt-16 pb-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                            <span class="material-symbols-outlined">local_hospital</span>
+                        </div>
+                        <span class="text-xl font-bold text-plum-dark dark:text-white">Avaneer Medical</span>
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                        An elite healthcare institution committed to providing state-of-the-art, patient-centered care with excellence in quality, service, and access.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="h-8 w-8 flex items-center justify-center rounded-full bg-white dark:bg-white/10 text-gray-600 dark:text-white hover:text-primary transition-colors border border-gray-200 dark:border-white/10" href="#">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+                        </a>
+                        <a class="h-8 w-8 flex items-center justify-center rounded-full bg-white dark:bg-white/10 text-gray-600 dark:text-white hover:text-primary transition-colors border border-gray-200 dark:border-white/10" href="#">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+                        </a>
+                        <a class="h-8 w-8 flex items-center justify-center rounded-full bg-white dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:text-primary transition-colors border border-gray-200 dark:border-white/10" href="#">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg text-plum-dark dark:text-white mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#">About Us</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#doctors">Our Doctors</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#services">Services</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#testimonials">Patient Stories</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg text-plum-dark dark:text-white mb-6">Departments</h4>
+                    <ul class="space-y-3">
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#services">Family Medicine</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#services">Dental Care</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#services">Pediatrics</a></li>
+                        <li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors" href="#services">Laboratory Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg text-plum-dark dark:text-white mb-6">Contact Information</h4>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Al Nuzha Street, South Al Maabilah<br/>Al Seeb, Muscat Governorate<br/>Sultanate of Oman</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Phone: (+968) 71922287</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Tel: (+968) 24052977</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Email: info@avaneermedical.com</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Website: www.avaneermedical.com</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 dark:border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-gray-500 dark:text-gray-500">© 2025 Avaneer Medical Center SPC. C.R No: 1325696. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a class="text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" href="#">Privacy Policy</a>
+                    <a class="text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
