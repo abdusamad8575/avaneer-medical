@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html class="light" lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Avaneer Medical Center - Elite Healthcare in Muscat, Oman</title>
+    <title>Avaneer Medical Center | Elite Healthcare in Muscat, Oman</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Avaneer Medical Center is a patient-centered healthcare clinic in Seeb, Oman providing expert doctors, modern facilities, and quality medical services with compassion and care.">
+    
+    <meta name="keywords" content="Avaneer Medical Center, Medical Center in Seeb, Oman clinic, healthcare Oman, hospital in Seeb">
+
+    <meta name="author" content="Avaneer Medical Center">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
